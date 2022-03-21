@@ -5,7 +5,7 @@
 
 <template>
 	<NuxtLayout name="content">
-		<template #avatar>
+		<template #profile>
 			<img
 				alt="avatar"
 				src="/avatar.png"

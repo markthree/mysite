@@ -15,7 +15,11 @@
 	<h2 class="mt-15 text-#555555" dark="text-light-50">{{
 		title
 	}}</h2>
-	<section class="mb-20 grid gap-10 grid-cols-2">
+	<section
+		class="mb-20 grid gap-10"
+		lg=" grid-cols-2"
+		sm="grid-cols-1"
+	>
 		<section
 			v-for="v of projects"
 			class="rounded-lg px-5 pb-5 transition-colors ease-in-out duration-250 projects"

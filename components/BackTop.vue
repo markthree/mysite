@@ -17,7 +17,8 @@
 <template>
 	<div
 		v-show="isScrollingRef"
-		class="bg-white rounded-full cursor-pointer flex h-12 shadow-xl right-10 bottom-8 animate-bounce w-12 items-center justify-center fixed"
+		class="bg-white rounded-full flex h-10 shadow-xl right-5 bottom-5 animate-bounce w-10 items-center justify-center fixed"
+		lg="cursor-pointer"
 		dark="bg-gray-600 text-white"
 		@click="backTop()"
 	>
