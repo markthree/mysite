@@ -304,7 +304,14 @@
   dependencies:
     mime "^3.0.0"
 
-"@iconify/types@^1.0.13":
+"@iconify-json/ic@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/@iconify-json/ic/-/ic-1.1.2.tgz#e8136571db52f204c0b65815906520b9997c2e6f"
+  integrity sha512-OXLXNMECrwg1N7HqG9z+p8eF9NleoV5tZvIH/W3ip3HdZsg1VbEWl0RpI9K5VJjT95xVn2n+gcAgLPD5HNAsXg==
+  dependencies:
+    "@iconify/types" "^1.0.12"
+
+"@iconify/types@^1.0.12", "@iconify/types@^1.0.13":
   version "1.0.13"
   resolved "https://registry.npmjs.org/@iconify/types/-/types-1.0.13.tgz#94a768699f5d9abd10c8f5485e874d2b96e0768e"
   integrity sha512-jrJJVPnRM1HsMDnuHRTzMfgiSG6Z1U/2IYI7s8spFu9c7n1q3jcXa+3/YQz4tJVNgAhzm1dbnMxfIAyLDpCaWg==
@@ -695,6 +702,11 @@
   resolved "https://registry.npmjs.org/@unocss/core/-/core-0.29.4.tgz#135b7f13763e8c65ba77f34aaffe370043acc7b3"
   integrity sha512-OGsJU68meq9GKyJcYn3Zw8VGT0lbh4jF0VEq7lm+oPuLj6bECgwEyadFFz8iFZtTG0xi4EZrGJDCYnFoMc+JMQ==
 
+"@unocss/core@0.29.5":
+  version "0.29.5"
+  resolved "https://registry.npmjs.org/@unocss/core/-/core-0.29.5.tgz#1e2552980c9bba855cac37410c1fbe787dd812aa"
+  integrity sha512-bS+Y/k4GkMJY4yZPSZFKozlZF+9s36Y8gx0NLma2hBam2NbBui7Qisg7ZXOC0pw+pkRC9OgFBsPnegp09ZUayA==
+
 "@unocss/inspector@0.29.4":
   version "0.29.4"
   resolved "https://registry.npmjs.org/@unocss/inspector/-/inspector-0.29.4.tgz#9b255961c0890079a5e31c615905a3f2a05653a0"
@@ -734,6 +746,15 @@
   dependencies:
     "@iconify/utils" "^1.0.24"
     "@unocss/core" "0.29.4"
+    local-pkg "^0.4.1"
+
+"@unocss/preset-icons@^0.29.5":
+  version "0.29.5"
+  resolved "https://registry.npmjs.org/@unocss/preset-icons/-/preset-icons-0.29.5.tgz#796f8f5352929f735024111a047e2ae83f770273"
+  integrity sha512-ukaTuvY0CkwpsY/DOj1MBZcjNb/Rv55OuRoxwR4nKLEc0NAWB6uHogomoCYZIkKsPx+xeLSxOtrivBFjxuy1XQ==
+  dependencies:
+    "@iconify/utils" "^1.0.24"
+    "@unocss/core" "0.29.5"
     local-pkg "^0.4.1"
 
 "@unocss/preset-mini@0.29.4":

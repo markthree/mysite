@@ -29,9 +29,10 @@
 
 		<section class="text-right">
 			<span
-				class="rounded-md cursor-pointer bg-gray-100 py-2 px-3 transition transition-colors text-gray-800 hover:bg-gray-300"
+				class="rounded-md cursor-pointer bg-gray-100 p-2 transition transition-colors text-gray-800 hover:bg-gray-300"
+				dark="bg-opacity-20 text-white hover:bg-gray-350"
 				@click="to('https://github.com/markthree')"
-				>🤗 更多开源进行中...</span
+				>🤗 more...</span
 			>
 		</section>
 	</NuxtLayout>
