@@ -1,5 +1,4 @@
 <script setup lang="ts">
-	import { to } from '~/shared/base'
 	import H1 from '~/components/H1.vue'
 	import { lists } from '~/data/lists'
 </script>
@@ -26,14 +25,5 @@
 			:title="v.title"
 			:projects="v.projects"
 		/>
-
-		<section class="text-right">
-			<span
-				class="rounded-md cursor-pointer bg-gray-100 p-2 transition transition-colors text-gray-800 hover:bg-gray-300"
-				dark="bg-opacity-20 text-white hover:bg-gray-350"
-				@click="to('https://github.com/markthree')"
-				>🤗 more...</span
-			>
-		</section>
 	</NuxtLayout>
 </template>
