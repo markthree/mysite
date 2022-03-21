@@ -8,6 +8,7 @@
 
 ## Stack 😄
 
+- [vueuse](https://vueuse.org/)
 - [nuxt3](https://v3.nuxtjs.org/)
 - [unocss](https://github.com/unocss/unocss)
 
