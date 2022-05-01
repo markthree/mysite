@@ -1,19 +1,16 @@
 {
-  "private": false,
-  "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
-  },
-  "devDependencies": {
-    "@iconify-json/ic": "^1.1.2",
-    "@unocss/nuxt": "^0.29.4",
-    "@unocss/preset-icons": "^0.29.5",
-    "@vueuse/core": "^8.1.2",
-    "@vueuse/nuxt": "^8.1.2",
-    "nuxt3": "^3.0.0-27474800.8dd77d7"
-  },
-  "dependencies": {
-    "nuxt": "^3.0.0-rc.1"
-  }
+	"private": false,
+	"scripts": {
+		"dev": "nuxi dev",
+		"build": "nuxi build",
+		"start": "node .output/server/index.mjs"
+	},
+	"devDependencies": {
+		"@iconify-json/ic": "^1.1.2",
+		"@unocss/nuxt": "^0.29.4",
+		"@unocss/preset-icons": "^0.29.5",
+		"@vueuse/core": "^8.1.2",
+		"@vueuse/nuxt": "^8.1.2",
+		"nuxt": "^3.0.0-rc.1"
+	}
 }
