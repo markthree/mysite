@@ -23,6 +23,11 @@ export const lists: IList[] = [
 				title: 'tob-theme',
 				desc: 'tob-ui 的主题库',
 				link: 'https://github.com/dishait/tob-theme'
+			},
+			{
+				title: 'pinia-plugin-unistorage',
+				desc: 'uniapp 下 pinia 的本地数据缓存插件',
+				link: 'https://github.com/dishait/pinia-plugin-unistorage'
 			}
 		]
 	},
@@ -58,6 +63,16 @@ export const lists: IList[] = [
 				title: 'vite-plugin-scan',
 				desc: '动态扫描 vite 插件',
 				link: 'https://github.com/dishait/vite-plugin-scan'
+			},
+			{
+				title: 'vite-plugin-vue-meta-layouts',
+				desc: 'vite 的 vue-router 的元信息布局系统',
+				link: 'https://github.com/dishait/vite-plugin-vue-meta-layouts'
+			},
+			{
+				title: 'vite-plugin-vue-factory',
+				desc: 'vite 的 vue 可视化工程管理插件',
+				link: 'https://github.com/dishait/vite-plugin-vue-factory'
 			}
 		]
 	},
@@ -83,6 +98,36 @@ export const lists: IList[] = [
 				title: 'vuepress-docs-template',
 				desc: '基于 vuepress-next 的文档模板',
 				link: 'https://github.com/dishait/vuepress-docs-template'
+			},
+			{
+				title: 'tov-template-lite',
+				desc: '非常轻量现代化 vite + vue3 模板',
+				link: 'https://github.com/dishait/tov-template-lite'
+			},
+			{
+				title: 'utools-plugin-starter',
+				desc: 'utools 插件的开箱即用模板',
+				link: 'https://github.com/markthree/utools-plugin-starter'
+			}
+		]
+	},
+	{
+		title: 'other',
+		projects: [
+			{
+				title: 'npm-csr',
+				desc: '快速切换 npm 源',
+				link: 'https://github.com/markthree/npm-csr'
+			},
+			{
+				title: 'MShared',
+				desc: '开发过程中的总结分享',
+				link: 'https://github.com/dishait/MShared'
+			},
+			{
+				title: 'vue-dark-switch',
+				desc: '多合一的开箱即用 vue3 暗黑模式开关组件',
+				link: 'https://github.com/dishait/vue-dark-switch'
 			}
 		]
 	}
