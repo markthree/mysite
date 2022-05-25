@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
 import presetIcons from '@unocss/preset-icons'
 import { presetAttributify, presetUno } from 'unocss'
 

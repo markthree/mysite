@@ -11,6 +11,6 @@
 		"@unocss/preset-icons": "^0.29.5",
 		"@vueuse/core": "^8.1.2",
 		"@vueuse/nuxt": "^8.1.2",
-		"nuxt": "^3.0.0-rc.1"
+		"nuxt": "^3.0.0-rc.3"
 	}
 }
