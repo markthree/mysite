@@ -2,7 +2,6 @@
 defineProps<{
 	title: string
 	desc: string
-	gitee: string
 	github: string
 }>()
 </script>
