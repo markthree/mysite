@@ -288,10 +288,10 @@
   dependencies:
     mime "^3.0.0"
 
-"@iconify-json/ic@^1.1.2":
+"@iconify-json/line-md@^1.1.4":
   version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@iconify-json/ic/-/ic-1.1.4.tgz#f69f8f344edbb956d684e8c607cfad5ac1815e2e"
-  integrity sha512-NkcyCh3VHwm3L19Ys4PDnbJmMoSE6vd83xjfWofmoeKKebs4tktz/LhPIy9vcaDqRENTNVtDORQdv0e+HCOjSg==
+  resolved "https://registry.yarnpkg.com/@iconify-json/line-md/-/line-md-1.1.4.tgz#8ee87ad29dc1cdaae03e4a65fa6b02c985faa1fb"
+  integrity sha512-4DpBhVSizRgb49552w2IUk83nrnMCuzfhd/lidUNbHZwbPczGO9PAqb2y0Tc3NZu/jpeIa6cTkrAAForwfv1WQ==
   dependencies:
     "@iconify/types" "^1.1.0"
 

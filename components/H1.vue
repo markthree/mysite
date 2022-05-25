@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-	defineProps<{
-		title: string
-		desc: string
-		gitee: string
-		github: string
-	}>()
+defineProps<{
+	title: string
+	desc: string
+	gitee: string
+	github: string
+}>()
 </script>
 
 <template>
@@ -14,14 +14,9 @@
 	<section class="text-xl">{{ desc }}</section>
 	<section class="flex space-x-7 mt-7 text-lg">
 		<NuxtLink
-			:to="gitee"
-			class="text-gray-800 block dark:text-light-900 hover:text-red-500"
-			>Gitee</NuxtLink
-		>
-		<NuxtLink
 			:to="github"
-			class="text-gray-800 block dark:text-light-900 hover:text-red-500"
-			>Github</NuxtLink
+			class="text-gray-800 block dark:text-light-900 hover:text-red-500 i-line-md:github-twotone text-4xl"
 		>
+		</NuxtLink>
 	</section>
 </template>
