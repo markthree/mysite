@@ -73,6 +73,11 @@ export const lists: IList[] = [
 				title: 'vite-plugin-vue-factory',
 				desc: 'vite 的 vue 可视化工程管理插件',
 				link: 'https://github.com/dishait/vite-plugin-vue-factory'
+			},
+			{
+				title: 'vite-plugin-removelog',
+				desc: '生产环境下移除 console 的 vite 插件',
+				link: 'https://github.com/dishait/vite-plugin-removelog'
 			}
 		]
 	},
@@ -108,6 +113,11 @@ export const lists: IList[] = [
 				title: 'utools-plugin-starter',
 				desc: 'utools 插件的开箱即用模板',
 				link: 'https://github.com/markthree/utools-plugin-starter'
+			},
+			{
+				title: 'vue3-exports',
+				desc: '开箱即用的 vite + vue3 + vitest + ts 库模板，用来打包 vue3 的 .vue 组件与 composition-api',
+				link: 'https://github.com/dishait/vue3-exports'
 			}
 		]
 	},
@@ -128,6 +138,21 @@ export const lists: IList[] = [
 				title: 'vue-dark-switch',
 				desc: '多合一的开箱即用 vue3 暗黑模式开关组件',
 				link: 'https://github.com/dishait/vue-dark-switch'
+			},
+			{
+				title: 'm-type-tools',
+				desc: '通用 ts 的类型工具',
+				link: 'https://github.com/dishait/m-type-tools'
+			},
+			{
+				title: 'file-computed',
+				desc: '文件型计算属性，当且仅当文件变化时才重新做计算',
+				link: 'https://github.com/dishait/file-computed'
+			},
+			{
+				title: 'undownload',
+				desc: 'all in one 的 node 下载',
+				link: 'https://github.com/dishait/undownload'
 			}
 		]
 	}
