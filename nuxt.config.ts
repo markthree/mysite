@@ -1,20 +1,14 @@
-import presetIcons from "@unocss/preset-icons";
-import { presetAttributify, presetUno } from "unocss";
-
 export default defineNuxtConfig({
   modules: [
-    [
-      "@unocss/nuxt",
-      {
-        presets: [
-          presetUno(),
-          presetIcons(),
-          presetAttributify(),
-        ],
-      },
-    ],
+    "@unocss/nuxt",
     "@vueuse/nuxt",
   ],
+  // @ts-ignore
+  unocss: {
+    uno: true,
+    icons: true,
+    attributify: true,
+  },
   typescript: {
     shim: false,
   },
