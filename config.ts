@@ -53,6 +53,11 @@ export const projectLists: ProjectLists = [
         desc: "uniapp 下 pinia 的本地数据缓存插件",
         href: "https://github.com/dishait/pinia-plugin-unistorage",
       },
+      {
+        title: "tob-mitt",
+        desc: "mitt 的 uni_modules 完美迁移版本",
+        href: "https://github.com/markthree/tob-mitt",
+      },
     ],
   },
   {
@@ -103,6 +108,11 @@ export const projectLists: ProjectLists = [
         desc: "生产环境下移除 console 的 vite 插件",
         href: "https://github.com/dishait/vite-plugin-removelog",
       },
+      {
+        title: "vite-plugin-builded-force-exit",
+        desc: "vite 打包后强制退出的插件",
+        href: "https://github.com/dishait/vite-plugin-builded-force-exit",
+      },
     ],
   },
   {
@@ -144,6 +154,11 @@ export const projectLists: ProjectLists = [
           "开箱即用的 vite + vue3 + vitest + ts 库模板，用来打包 vue3 的 .vue 组件与 composition-api",
         href: "https://github.com/dishait/vue3-exports",
       },
+      {
+        title: "node-lib-template",
+        desc: "开箱即用的 node 库模板",
+        href: "https://github.com/markthree/node-lib-template",
+      },
     ],
   },
   {
@@ -178,6 +193,11 @@ export const projectLists: ProjectLists = [
         title: "undownload",
         desc: "all in one 的 node 下载",
         href: "https://github.com/dishait/undownload",
+      },
+      {
+        title: "autoinstall-pkg",
+        desc: "自动安装 npm 包",
+        href: "https://github.com/dishait/autoinstall-pkg",
       },
     ],
   },
