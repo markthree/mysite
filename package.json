@@ -6,11 +6,11 @@
 		"start": "node .output/server/index.mjs"
 	},
 	"devDependencies": {
-		"@iconify-json/line-md": "^1.1.4",
-		"@unocss/nuxt": "^0.29.4",
-		"@unocss/preset-icons": "^0.29.5",
-		"@vueuse/core": "^8.1.2",
-		"@vueuse/nuxt": "^8.1.2",
-		"nuxt": "^3.0.0-rc.3"
+		"@iconify-json/line-md": "^1.1.20",
+		"@unocss/nuxt": "^0.29.6",
+		"@unocss/preset-icons": "^0.29.6",
+		"@vueuse/core": "^8.9.4",
+		"@vueuse/nuxt": "^9.6.0",
+		"nuxt": "^3.0.0"
 	}
 }

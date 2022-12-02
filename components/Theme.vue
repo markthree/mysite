@@ -3,9 +3,11 @@ const isDark = useDark()
 const toggleDark = useToggle(isDark)
 
 const icon = computed(() => {
-	return isDark.value
-		? 'i-line-md:cloud-filled'
-		: 'i-line-md:circle'
+	const sun =
+		'i-line-md:moon-to-sunny-outline-loop-transition'
+	const moon =
+		'i-line-md:sunny-outline-to-moon-alt-loop-transition'
+	return isDark.value ? moon : sun
 })
 </script>
 
