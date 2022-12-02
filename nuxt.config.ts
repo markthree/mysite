@@ -15,6 +15,9 @@ export default defineNuxtConfig({
     ],
     "@vueuse/nuxt",
   ],
+  nitro: {
+    preset: "deno",
+  },
   typescript: {
     shim: false,
   },
