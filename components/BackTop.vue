@@ -17,13 +17,11 @@ onMounted(() => {
 <template>
 	<div
 		v-show="isScrollingRef"
-		class="bg-white rounded-full flex h-10 shadow-xl right-5 bottom-5 animate-bounce w-10 items-center justify-center fixed"
+		class="rounded-full flex h-10 shadow-xl right-5 bottom-5 animate-bounce w-10 items-center justify-center fixed"
 		lg="cursor-pointer"
-		dark="bg-gray-600 text-white"
+		dark="text-white"
 		@click="backTop()"
 	>
-		<div
-			class="text-2xl rotate-90 i-line-md:arrow-small-left"
-		></div>
+		<div class="text-2xl rotate-270">→</div>
 	</div>
 </template>
