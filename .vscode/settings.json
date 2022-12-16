@@ -5,5 +5,8 @@
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
 		"config.ts": "nuxt.config.ts,README.md,tsconfig.json,yarn.lock,LICENSE,.gitignore,package.json"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "denoland.vscode-deno"
 	}
 }

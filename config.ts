@@ -5,13 +5,16 @@ export interface ILink {
 
 export type ILinks = ILink[];
 
-export const links = [{
-  name: "Gitee",
-  href: "https://www.gitee.com/markthree",
-}, {
-  name: "Github",
-  href: "https://github.com/markthree",
-}];
+export const links = [
+  {
+    name: "Gitee",
+    href: "https://www.gitee.com/markthree",
+  },
+  {
+    name: "Github",
+    href: "https://github.com/markthree",
+  },
+];
 
 export interface IProjectList {
   title: string;
@@ -159,6 +162,11 @@ export const projectLists: ProjectLists = [
         desc: "开箱即用的 node 库模板",
         href: "https://github.com/markthree/node-lib-template",
       },
+      {
+        title: "deno-starter",
+        desc: "简单的 deno 项目模板",
+        href: "https://github.com/markthree/deno-starter",
+      },
     ],
   },
   {
@@ -198,6 +206,41 @@ export const projectLists: ProjectLists = [
         title: "autoinstall-pkg",
         desc: "自动安装 npm 包",
         href: "https://github.com/dishait/autoinstall-pkg",
+      },
+      {
+        title: "useScrollBarStyle",
+        desc: "响应式地变换滚动条样式 (vue3)",
+        href: "https://github.com/markthree/useScrollBarStyle",
+      },
+    ],
+  },
+  {
+    title: "deno",
+    projects: [
+      {
+        title: "ndeno",
+        desc: "deno 实现的 node 项目包管理命令工具",
+        href: "https://github.com/dishait/ndeno",
+      },
+      {
+        title: "udeno",
+        desc: "生产环境下为 node 包提供开箱即用的 deno 支持",
+        href: "https://github.com/dishait/udeno",
+      },
+      {
+        title: "deno-backups",
+        desc: "硬链接备份",
+        href: "https://github.com/markthree/deno-backups",
+      },
+      {
+        title: "deno-wallpaper-switch",
+        desc: "切换壁纸",
+        href: "https://github.com/markthree/deno-wallpaper-switch",
+      },
+      {
+        title: "static",
+        desc: "静态文件仓库(deno deploy)",
+        href: "https://github.com/markthree/static",
       },
     ],
   },
