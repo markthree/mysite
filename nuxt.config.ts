@@ -2,7 +2,8 @@ export default defineNuxtConfig({
 	modules: [
 		'@unocss/nuxt',
 		'@vueuse/nuxt',
-		'@nuxt/image-edge'
+		'@nuxt/image-edge',
+		'@nuxtjs/html-validator'
 	],
 	unocss: {
 		uno: true,

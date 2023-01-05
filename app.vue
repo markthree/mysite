@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import { projectLists, links } from '~/config'
+
+useHead({
+	htmlAttrs: {
+		lang: 'zh-CN'
+	}
+})
 </script>
 
 <template>
