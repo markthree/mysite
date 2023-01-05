@@ -16,12 +16,14 @@ useHead({
 
 	<div class="px-5 pt-5 pb-10" lg="flex">
 		<section class="mr-15 w-75">
-			<nuxt-img
+			<NuxtImg
 				preload
 				format="webp"
-				width="18.75rem"
+				loading="lazy"
 				src="/avatar.png"
 				alt="markthree-avatar"
+				width="300px"
+				height="300px"
 				class="rounded-full shadow w-full" />
 		</section>
 
@@ -43,7 +45,9 @@ useHead({
 				:projects="v.projects" />
 		</section>
 
-		<Theme class="top-5 right-4 fixed" />
+		<div class="top-5 right-4 fixed">
+			<Theme />
+		</div>
 		<BackTop />
 	</div>
 </template>

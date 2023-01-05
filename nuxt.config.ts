@@ -3,6 +3,7 @@ export default defineNuxtConfig({
 		'@unocss/nuxt',
 		'@vueuse/nuxt',
 		'@nuxt/image-edge',
+		'@nuxtjs/color-mode',
 		'@nuxtjs/html-validator'
 	],
 	unocss: {
@@ -14,6 +15,16 @@ export default defineNuxtConfig({
 		shim: false
 	},
 	experimental: {
-		asyncEntry: true
+		asyncEntry: true,
+		reactivityTransform: true
+	},
+	vite: {
+		define: {
+			__VUE_OPTIONS_API__: false
+		}
+	},
+	colorMode: {
+		classSuffix: '',
+		storageKey: 'nuxt-color-mode'
 	}
 })
