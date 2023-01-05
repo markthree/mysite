@@ -10,32 +10,31 @@ import { projectLists, links } from '~/config'
 
 	<div class="px-5 pt-5 pb-10" lg="flex">
 		<section class="mr-15 w-75">
-			<img
+			<nuxt-img
+				preload
+				format="webp"
+				width="18.75rem"
 				src="/avatar.png"
 				alt="markthree-avatar"
-				class="rounded-full shadow w-full"
-			/>
+				class="rounded-full shadow w-full" />
 		</section>
 
 		<section class="flex-1">
 			<Tip
 				title="markthree"
-				desc="一个喜欢听萨克斯的男人 🎷"
-			/>
+				desc="一个喜欢听萨克斯的男人 🎷" />
 
 			<Links title="Links" :links="links" />
 
 			<h2
 				class="mt-25 text-4xl text-#555555"
-				dark="text-light-50"
-			>
+				dark="text-light-50">
 				Projects
 			</h2>
 			<List
 				v-for="v of projectLists"
 				:title="v.title"
-				:projects="v.projects"
-			/>
+				:projects="v.projects" />
 		</section>
 
 		<Theme class="top-5 right-4 fixed" />

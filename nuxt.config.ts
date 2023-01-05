@@ -1,5 +1,9 @@
 export default defineNuxtConfig({
-	modules: ['@unocss/nuxt', '@vueuse/nuxt'],
+	modules: [
+		'@unocss/nuxt',
+		'@vueuse/nuxt',
+		'@nuxt/image-edge'
+	],
 	unocss: {
 		uno: true,
 		icons: true,
@@ -7,5 +11,8 @@ export default defineNuxtConfig({
 	},
 	typescript: {
 		shim: false
+	},
+	experimental: {
+		asyncEntry: true
 	}
 })

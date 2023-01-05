@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "@iconify-json/line-md": "^1.1.20",
+    "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@unocss/nuxt": "^0.47.5",
     "@unocss/preset-icons": "^0.47.5",
     "@vueuse/core": "^9.6.0",
