@@ -6,14 +6,13 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@iconify-json/line-md": "^1.1.20",
-    "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
+    "@iconify-json/line-md": "^1.1.22",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/html-validator": "^1.2.3",
-    "@unocss/nuxt": "^0.47.5",
-    "@unocss/preset-icons": "^0.47.5",
-    "@vueuse/core": "^9.6.0",
-    "@vueuse/nuxt": "^9.6.0",
+    "@unocss/nuxt": "^0.48.1",
+    "@unocss/preset-icons": "^0.48.1",
+    "@vueuse/core": "^9.10.0",
+    "@vueuse/nuxt": "^9.10.0",
     "nuxt": "^3.0.0"
   }
 }
