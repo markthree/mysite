@@ -17,7 +17,6 @@ useHead({
 	<div class="px-5 pt-5 pb-10" lg="flex">
 		<section class="mr-15 w-300px">
 			<img
-				preload
 				loading="lazy"
 				src="/avatar.png"
 				alt="markthree-avatar"
