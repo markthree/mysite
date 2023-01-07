@@ -28,9 +28,14 @@ export default defineNuxtConfig({
 		storageKey: 'nuxt-color-mode'
 	},
 	nitro: {
+		minify: true,
 		prerender: {
 			routes: ['/'],
 			crawlLinks: true
+		},
+		compressPublicAssets: {
+			gzip: true,
+			brotli: true
 		}
 	},
 	sitemap: {
