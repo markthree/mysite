@@ -2,6 +2,7 @@ export default defineNuxtConfig({
 	modules: [
 		'@unocss/nuxt',
 		'@vueuse/nuxt',
+		'@nuxtjs/critters',
 		'@nuxtjs/color-mode',
 		'nuxt-simple-sitemap',
 		'@nuxtjs/html-validator'

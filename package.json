@@ -9,6 +9,7 @@
   "devDependencies": {
     "@iconify-json/line-md": "^1.1.22",
     "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/critters": "^0.4.0",
     "@nuxtjs/html-validator": "^1.2.3",
     "@unocss/nuxt": "^0.48.1",
     "@unocss/preset-icons": "^0.48.1",
