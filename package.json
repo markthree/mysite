@@ -1,10 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
+    "start": "yarn preview",
     "prepare": "nuxi prepare",
-    "start": "node .output/server/index.mjs"
+    "dev": "tsx scripts/dev.ts",
+    "build": "tsx scripts/build.ts",
+    "preview": "tsx scripts/preview.ts"
   },
   "devDependencies": {
     "@iconify-json/line-md": "^1.1.22",
@@ -15,7 +16,11 @@
     "@unocss/preset-icons": "^0.48.1",
     "@vueuse/core": "^9.10.0",
     "@vueuse/nuxt": "^9.10.0",
+    "consola": "^2.15.3",
     "nuxt": "^3.0.0",
-    "nuxt-simple-sitemap": "^0.5.8"
+    "nuxt-simple-sitemap": "^0.5.8",
+    "nuxt3-intelligence": "^0.0.2",
+    "tsx": "^3.12.2",
+    "kolorist": "^1.6.0"
   }
 }
