@@ -1,11 +1,10 @@
 import consola from 'consola'
+import { provider } from 'std-env'
 import { green, red } from 'kolorist'
 import packageJson from '../package.json'
 import { exec } from 'node:child_process'
 import { createFsComputed } from 'file-computed'
 import { getStaticDepsFromNuxtConfig } from 'nuxt3-intelligence'
-
-const fsComputed = createFsComputed()
 
 const log = consola.withTag('nuxt3-intelligence')
 
@@ -47,7 +46,13 @@ export async function getDepsSort() {
 }
 
 export async function checkDepsFromConfig() {
+	if (provider === 'netlify') {
+		return
+	}
+
 	log.start(`check nuxt deps`)
+
+	const fsComputed = createFsComputed()
 
 	const { existDeps, notExistDeps } = await fsComputed(
 		['nuxt.config.ts', 'nuxt.config.ts'],

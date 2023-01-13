@@ -1,11 +1,12 @@
 {
   "private": true,
   "scripts": {
+    "build": "nuxi build",
     "start": "yarn preview",
     "prepare": "nuxi prepare",
     "dev": "tsx scripts/dev.ts",
-    "build": "tsx scripts/build.ts",
-    "preview": "tsx scripts/preview.ts"
+    "preview": "tsx scripts/preview.ts",
+    "build:dev": "tsx scripts/build.ts"
   },
   "devDependencies": {
     "@iconify-json/line-md": "^1.1.22",
@@ -22,6 +23,7 @@
     "nuxt": "^3.0.0",
     "nuxt-simple-sitemap": "^0.5.8",
     "nuxt3-intelligence": "^0.0.2",
+    "std-env": "^3.3.1",
     "tsx": "^3.12.2"
   }
 }
