@@ -2,7 +2,10 @@ import consola from 'consola'
 import { green, red } from 'kolorist'
 import packageJson from '../package.json'
 import { exec } from 'node:child_process'
+import { createFsComputed } from 'file-computed'
 import { getStaticDepsFromNuxtConfig } from 'nuxt3-intelligence'
+
+const fsComputed = createFsComputed()
 
 const log = consola.withTag('nuxt3-intelligence')
 
@@ -28,12 +31,28 @@ function listLog(list: string[], color = green) {
 	}, '')
 }
 
-export async function checkDepsFromConfig() {
-	log.start(`check nuxt deps`)
-
+export async function getDepsSort() {
 	const deps = await getStaticDepsFromNuxtConfig()
 
 	const existDeps = deps.filter(dep => existPackage(dep))
+
+	const notExistDeps = deps.filter(
+		dep => !existPackage(dep)
+	)
+
+	return {
+		existDeps,
+		notExistDeps
+	}
+}
+
+export async function checkDepsFromConfig() {
+	log.start(`check nuxt deps`)
+
+	const { existDeps, notExistDeps } = await fsComputed(
+		['nuxt.config.ts', 'nuxt.config.ts'],
+		getDepsSort
+	)
 
 	console.log()
 
@@ -41,10 +60,6 @@ export async function checkDepsFromConfig() {
 		log.success('installed', listLog(existDeps))
 		console.log()
 	}
-
-	const notExistDeps = deps.filter(
-		dep => !existPackage(dep)
-	)
 
 	if (notExistDeps.length > 0) {
 		log.info('not installed', listLog(notExistDeps, red))

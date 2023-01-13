@@ -17,10 +17,11 @@
     "@vueuse/core": "^9.10.0",
     "@vueuse/nuxt": "^9.10.0",
     "consola": "^2.15.3",
+    "file-computed": "^0.3.4",
+    "kolorist": "^1.6.0",
     "nuxt": "^3.0.0",
     "nuxt-simple-sitemap": "^0.5.8",
     "nuxt3-intelligence": "^0.0.2",
-    "tsx": "^3.12.2",
-    "kolorist": "^1.6.0"
+    "tsx": "^3.12.2"
   }
 }

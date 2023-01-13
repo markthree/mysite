@@ -2405,6 +2405,16 @@ figures@^5.0.0:
     escape-string-regexp "^5.0.0"
     is-unicode-supported "^1.2.0"
 
+file-computed@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/file-computed/-/file-computed-0.3.4.tgz#c7d3b2ccfb22977be104b772cb24f7e4afdc4fb4"
+  integrity sha512-+2L5Ro8qQk2oQnmpmUiqlxoxxbWbUycB9m2QnzcQ7uiio/iKlDwKEFjsXSxTXd+3HH9QNv0KVNx7ZFxFqpT3NA==
+  dependencies:
+    destr "^1.2.2"
+    m-type-tools "^0.4.0"
+    ohash "^1.0.0"
+    unstorage "^1.0.1"
+
 file-uri-to-path@1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
@@ -3134,6 +3144,11 @@ lru-cache@^6.0.0:
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
+
+m-type-tools@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npmmirror.com/m-type-tools/-/m-type-tools-0.4.0.tgz#edfe4672e3bed821be57733b4242b4cecfe0ec6f"
+  integrity sha512-k+jCVn118kX/uUFSbnemGVetCchNVc/rtm2w0uSGBrS0QUlfFenIq83L3OaQdIUncBPfb0SroUlegAmUqns8JQ==
 
 magic-string@^0.25.7:
   version "0.25.9"
