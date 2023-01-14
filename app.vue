@@ -17,7 +17,7 @@ useHead({
 	<div class="px-5 pt-5 pb-10" lg="flex">
 		<section class="mr-15 w-300px">
 			<img src="/avatar.png" alt="markthree-avatar" width="300px" height="300px"
-				class="rounded-full shadow w-full" loading="lazy"/>
+				class="rounded-full shadow w-full" />
 		</section>
 
 		<section class="flex-1">
