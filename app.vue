@@ -16,19 +16,28 @@ useHead({
 
 	<div class="px-5 pt-5 pb-10" lg="flex">
 		<section class="mr-15 w-300px">
-			<img src="/avatar.png" alt="markthree-avatar" width="300px" height="300px"
+			<img
+				src="/avatar.png"
+				alt="markthree-avatar"
+				width="300px"
+				height="300px"
 				class="rounded-full shadow w-full" />
 		</section>
 
 		<section class="flex-1">
-			<Tip title="markthree" desc="一个喜欢听萨克斯的男人 🎷" />
+			<Tip title="markthree" desc="Keep it simple" />
 
 			<Links title="Links" :links="links" />
 
-			<h2 class="mt-25 text-4xl text-#555555" dark="text-light-50">
+			<h2
+				class="mt-25 text-4xl text-#555555"
+				dark="text-light-50">
 				Projects
 			</h2>
-			<List v-for="v of projectLists" :title="v.title" :projects="v.projects" />
+			<List
+				v-for="v of projectLists"
+				:title="v.title"
+				:projects="v.projects" />
 		</section>
 
 		<div class="top-5 right-4 fixed">
@@ -43,7 +52,7 @@ body {
 	transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.dark>body {
+.dark > body {
 	color: #adbac7;
 	background-color: #22272e;
 }
