@@ -3,7 +3,7 @@ import { provider } from 'std-env'
 import { green, red } from 'kolorist'
 import packageJson from '../package.json'
 import { exec } from 'node:child_process'
-import { createFsComputed } from 'file-computed'
+import { createFsComputedWithStream } from 'file-computed'
 import { getStaticDepsFromNuxtConfig } from 'nuxt3-intelligence'
 
 const log = consola.withTag('nuxt3-intelligence')
@@ -52,7 +52,7 @@ export async function checkDepsFromConfig() {
 
 	log.start(`check nuxt deps`)
 
-	const fsComputed = createFsComputed()
+	const fsComputed = createFsComputedWithStream()
 
 	const { existDeps, notExistDeps } = await fsComputed(
 		['nuxt.config.ts', 'nuxt.config.ts'],
