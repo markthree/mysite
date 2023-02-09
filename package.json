@@ -1,29 +1,29 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "nuxi build",
-    "start": "yarn preview",
-    "prepare": "nuxi prepare",
-    "dev": "tsx scripts/dev.ts",
-    "preview": "tsx scripts/preview.ts",
-    "build:dev": "tsx scripts/build.ts"
-  },
-  "devDependencies": {
-    "@iconify-json/line-md": "^1.1.22",
-    "@nuxtjs/color-mode": "^3.2.0",
-    "@nuxtjs/critters": "^0.4.0",
-    "@nuxtjs/html-validator": "^1.2.3",
-    "@unocss/nuxt": "^0.49.2",
-    "@unocss/preset-icons": "^0.49.2",
-    "@vueuse/core": "^9.12.0",
-    "@vueuse/nuxt": "^9.12.0",
-    "consola": "^2.15.3",
-    "file-computed": "^0.5.1",
-    "kolorist": "^1.6.0",
-    "nuxt": "^3.1.1",
-    "nuxt-simple-sitemap": "^1.0.6",
-    "nuxt3-intelligence": "^0.0.3",
-    "std-env": "^3.3.1",
-    "tsx": "^3.12.2"
-  }
+	"private": true,
+	"scripts": {
+		"build": "nuxi build",
+		"start": "yarn preview",
+		"prepare": "nuxi prepare",
+		"dev": "tsx scripts/dev.ts",
+		"preview": "tsx scripts/preview.ts",
+		"build:dev": "tsx scripts/build.ts"
+	},
+	"devDependencies": {
+		"@iconify-json/line-md": "^1.1.22",
+		"@nuxtjs/color-mode": "^3.2.0",
+		"@nuxtjs/critters": "^0.4.0",
+		"@nuxtjs/html-validator": "^1.2.3",
+		"@unocss/nuxt": "^0.49.4",
+		"@unocss/preset-icons": "^0.49.4",
+		"@vueuse/core": "^9.12.0",
+		"@vueuse/nuxt": "^9.12.0",
+		"consola": "^2.15.3",
+		"file-computed": "^0.6.2",
+		"kolorist": "^1.7.0",
+		"nuxt": "^3.2.0",
+		"nuxt-simple-sitemap": "^1.0.7",
+		"nuxt3-intelligence": "^0.1.1",
+		"std-env": "^3.3.2",
+		"tsx": "^3.12.3"
+	}
 }
