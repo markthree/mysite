@@ -4,11 +4,18 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxt/devtools",
     "@nuxtjs/critters",
+    "@nuxtjs/fontaine",
     "@nuxt/image-edge",
     "@nuxtjs/color-mode",
     "nuxt-simple-sitemap",
     "@nuxtjs/html-validator",
   ],
+  critters: {
+    pruneSource: true,
+    preloadFonts: true,
+    mergeStylesheets: true,
+    reduceInlineStyles: true,
+  },
   unocss: {
     uno: true,
     icons: true,
