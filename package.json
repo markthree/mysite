@@ -11,7 +11,6 @@
   "devDependencies": {
     "@iconify-json/line-md": "^1.1.23",
     "@nuxt/devtools": "^0.2.3",
-    "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/critters": "^0.4.0",
     "@nuxtjs/fontaine": "^0.2.4",

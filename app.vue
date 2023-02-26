@@ -16,8 +16,7 @@ useHead({
 
 	<div class="px-5 pt-5 pb-10" lg="flex">
 		<section class="mr-15 w-300px">
-			<NuxtImg src="/avatar.webp" alt="markthree-avatar" width="300px" height="300px" class="rounded-full shadow"
-				format="webp" />
+			<img src="/avatar.webp" alt="markthree-avatar" width="300px" height="300px" class="rounded-full shadow" />
 		</section>
 
 		<section class="flex-1">

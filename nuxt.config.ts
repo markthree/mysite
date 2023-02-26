@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     "@nuxt/devtools",
     "@nuxtjs/critters",
     "@nuxtjs/fontaine",
-    "@nuxt/image-edge",
     "@nuxtjs/color-mode",
     "nuxt-simple-sitemap",
     "@nuxtjs/html-validator",
