@@ -1,15 +1,15 @@
 export function useElInitialRenderStatus() {
-	let status = $ref(false)
-	let el = $ref<HTMLElement>()
+  const status = ref(false);
+  const el = ref<HTMLElement>();
 
-	const visible = useElementVisibility($$(el))
+  const visible = useElementVisibility(el);
 
-	watchOnce(visible, () => {
-		status = true
-	})
+  watchOnce(visible, () => {
+    status.value = true;
+  });
 
-	return $$({
-		el,
-		status
-	})
+  return {
+    el,
+    status,
+  };
 }

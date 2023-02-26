@@ -1,16 +1,16 @@
 export function useTheme() {
-	const colorMode = useColorMode()
+  const colorMode = useColorMode();
 
-	const isDark = $computed(
-		() => colorMode.preference === 'dark'
-	)
+  const isDark = computed(
+    () => colorMode.preference === "dark",
+  );
 
-	function toggleDark() {
-		colorMode.preference = isDark ? 'light' : 'dark'
-	}
+  function toggleDark() {
+    colorMode.preference = isDark.value ? "light" : "dark";
+  }
 
-	return $$({
-		isDark,
-		toggleDark
-	})
+  return {
+    isDark,
+    toggleDark,
+  };
 }
