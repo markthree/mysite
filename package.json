@@ -1,31 +1,23 @@
 {
   "private": true,
   "scripts": {
+    "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "yarn preview",
     "prepare": "nuxi prepare",
-    "dev": "tsx scripts/dev.ts",
-    "preview": "tsx scripts/preview.ts",
-    "build:dev": "tsx scripts/build.ts"
+    "preview": "nuxi preview"
   },
   "devDependencies": {
     "@iconify-json/line-md": "^1.1.23",
-    "@nuxt/devtools": "^0.2.3",
+    "@nuxt/devtools": "^0.3.1",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/critters": "^0.4.0",
     "@nuxtjs/fontaine": "^0.2.4",
-    "@nuxtjs/html-validator": "^1.2.3",
-    "@unocss/nuxt": "^0.50.1",
-    "@unocss/preset-icons": "^0.50.1",
+    "@nuxtjs/html-validator": "^1.2.4",
+    "@unocss/nuxt": "^0.50.6",
+    "@unocss/preset-icons": "^0.50.6",
     "@vueuse/core": "^9.13.0",
     "@vueuse/nuxt": "^9.13.0",
-    "consola": "^2.15.3",
-    "file-computed": "^0.9.1",
-    "kolorist": "^1.7.0",
-    "nuxt": "^3.2.2",
-    "nuxt-simple-sitemap": "^1.0.7",
-    "nuxt3-intelligence": "^0.1.1",
-    "std-env": "^3.3.2",
-    "tsx": "^3.12.3"
+    "nuxt": "^3.3.3",
+    "nuxt-simple-sitemap": "^2.4.3"
   }
 }
