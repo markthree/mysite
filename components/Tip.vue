@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 defineProps<{
 	title: string
-	desc: string
+	slogan: string
 }>()
 </script>
 
@@ -9,5 +9,5 @@ defineProps<{
 	<h1 class="text-5xl text-#555555" dark="text-light-50">
 		{{ title }}
 	</h1>
-	<section class="text-xl">{{ desc }}</section>
+	<section class="text-xl">{{ slogan }}</section>
 </template>

@@ -1,4 +1,9 @@
+import { env } from "process"
+
 export default defineNuxtConfig({
+  runtimeConfig: {
+    GITHUB_TOKEN: env.GITHUB_TOKEN,
+  },
   modules: [
     "@unocss/nuxt",
     "@vueuse/nuxt",

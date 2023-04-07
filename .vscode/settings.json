@@ -1,12 +1,13 @@
 {
-	"prettier.enable": true,
 	"eslint.packageManager": "yarn",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"config.ts": "nuxt.config.ts,README.md,tsconfig.json,yarn.lock,LICENSE,.gitignore,package.json,.npmrc"
+		"app.config.ts": "LICENSE,nuxt.config.ts,package.json,tsconfig.json,.npmrc"
 	},
 	"editor.quickSuggestions": {
 		"strings": "on"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
 	}
 }
