@@ -5,13 +5,12 @@ import type { FetchOptions } from "ohmyfetch";
 const runtimeConfig = useRuntimeConfig();
 
 const commonCacheOptions: CacheOptions = {
-  group: "gh",
   swr: true,
   maxAge: 60 * 60 * 6, // 6 hours
   staleMaxAge: 60 * 60 * 12, // 12 hours
 };
 
-const cacheOptions = (name: string): CacheOptions => ({
+export const cacheOptions = (name: string): CacheOptions => ({
   ...commonCacheOptions,
   name,
 });

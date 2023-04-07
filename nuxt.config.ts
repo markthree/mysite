@@ -1,5 +1,7 @@
 import { env } from "process"
 
+const hour = 60 * 60
+
 export default defineNuxtConfig({
   runtimeConfig: {
     GITHUB_TOKEN: env.GITHUB_TOKEN,
@@ -11,11 +13,11 @@ export default defineNuxtConfig({
     "@unocss/nuxt",
     "@vueuse/nuxt",
     "@nuxt/devtools",
+    '@nuxtjs/robots',
     "@nuxtjs/critters",
     "@nuxtjs/fontaine",
     "@nuxtjs/color-mode",
-    "nuxt-simple-sitemap",
-    "@nuxtjs/html-validator",
+    "nuxt-simple-sitemap"
   ],
   critters: {
     pruneSource: true,
@@ -42,6 +44,15 @@ export default defineNuxtConfig({
   },
   nitro: {
     minify: true,
+    routeRules: {
+     '/': {
+      swr: 6 * hour,
+      prerender: true
+     },
+     '/api/**': {
+      swr: 6 * hour,
+     } 
+    },
     prerender: {
       routes: ["/"],
       crawlLinks: true,

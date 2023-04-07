@@ -6,8 +6,10 @@ defineProps<{
 </script>
 
 <template>
-	<h1 class="text-5xl text-#555555" dark="text-light-50">
-		{{ title }}
-	</h1>
-	<section class="text-xl">{{ slogan }}</section>
+	<div>
+		<h1 class="text-5xl text-#555555" dark="text-light-50">
+			{{ title }}
+		</h1>
+		<section class="text-xl">{{ slogan }}</section>
+	</div>
 </template>

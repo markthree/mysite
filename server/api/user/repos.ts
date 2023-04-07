@@ -1,7 +1,7 @@
 import type { Projects } from "~/type"
-import { ghFetch } from "~/utils/github";
+import { ghFetch, cacheOptions } from "~/utils/github";
 
-export default eventHandler(async () => {
+export default cachedEventHandler(async () => {
   const reposRes = []
 
   let i = 1;
@@ -28,4 +28,4 @@ export default eventHandler(async () => {
   });
 
   return repos as Projects
-});
+}, cacheOptions('api/user/repos'));
