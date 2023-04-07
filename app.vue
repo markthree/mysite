@@ -6,8 +6,7 @@ useHead({
 	link: [{ rel: 'icon', href: '/logo.svg' }],
 	meta: [
 		{ charset: 'utf-8' },
-		{ name: 'keywords', content: 'investor' },
-		{ name: 'keywords', content: 'programmer' },
+		{ name: 'keywords', content: 'programmer and investor' },
 		{ name: 'description', content: `markthree's website` },
 	],
 	htmlAttrs: {
