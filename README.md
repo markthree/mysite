@@ -41,6 +41,14 @@ yarn dev
 yarn build
 ```
 
+### env
+
+创建 `.env` 文件，补充你的 `github api token` 
+
+```env
+GITHUB_TOKEN=your github api token
+```
+
 <br />
 <br />
 
