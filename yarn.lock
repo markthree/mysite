@@ -4954,10 +4954,10 @@ nuxi@3.3.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-simple-sitemap@^2.4.3:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/nuxt-simple-sitemap/-/nuxt-simple-sitemap-2.4.3.tgz#5d0000175ccf46489b5cddee596529f4b93251c9"
-  integrity sha512-dvPEFaVkQmH/wqDKPA2E9lS3t9njZwfgDy2IYp6KnfZKTi6QPJBG8v+V5Cg+xwxMkQRG65j7NYp49JvZi/vuuw==
+nuxt-simple-sitemap@^2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/nuxt-simple-sitemap/-/nuxt-simple-sitemap-2.4.4.tgz#8d0307f7d90ae3fa86a5360b47cd80b7c19c6d4c"
+  integrity sha512-jz0zSmASEctphp50foX9LfLpkJV/EWqPQKsVz/wQnhClxPkxvS6WDQKUaAa/euAxLIFwqdV2ZDibcYgJW/Dw0Q==
   dependencies:
     "@nuxt/kit" "3.3.3"
     chalk "^5.2.0"
