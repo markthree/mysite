@@ -1,7 +1,15 @@
 <script setup lang="ts">
-const {  username, slogan, links, avatar } = useAppConfig()
+const { username, slogan, links, avatar } = useAppConfig()
 
 useHead({
+	title: username,
+	link: [{ rel: 'icon', href: '/logo.svg' }],
+	meta: [
+		{ charset: 'utf-8' },
+		{ name: 'keywords', content: 'investor' },
+		{ name: 'keywords', content: 'programmer' },
+		{ name: 'description', content: `markthree's website` },
+	],
 	htmlAttrs: {
 		lang: 'zh-CN'
 	}
@@ -11,11 +19,6 @@ const { data } = await useLazyFetch(`/api/user/repos`)
 </script>
 
 <template>
-	<div>
-		<Title>markthree</Title>
-		<Link rel="icon" href="/logo.svg" />
-	</div>
-
 	<div class="px-5 pt-5 pb-10" lg="flex">
 		<section class="mr-15 w-300px">
 			<img :src="avatar" alt="markthree-avatar" width="300px" height="300px" class="rounded-full shadow" />

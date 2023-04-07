@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     GITHUB_TOKEN: env.GITHUB_TOKEN,
   },
+  experimental: {
+    crossOriginPrefetch: true
+  },
   modules: [
     "@unocss/nuxt",
     "@vueuse/nuxt",
