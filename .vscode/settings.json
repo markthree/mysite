@@ -9,5 +9,6 @@
 	},
 	"[vue]": {
 		"editor.defaultFormatter": "Vue.volar"
-	}
+	},
+	"volar.inlayHints.eventArgumentInInlineHandlers": false
 }

@@ -3,16 +3,18 @@ import { env } from "process"
 const hour = 60 * 60
 
 export default defineNuxtConfig({
+  // @ts-ignore
+  devtools: true,
   runtimeConfig: {
     GITHUB_TOKEN: env.GITHUB_TOKEN,
   },
   experimental: {
+    renderJsonPayloads: true,
     crossOriginPrefetch: true
   },
   modules: [
     "@unocss/nuxt",
     "@vueuse/nuxt",
-    "@nuxt/devtools",
     '@nuxtjs/robots',
     "@nuxtjs/critters",
     "@nuxtjs/fontaine",
