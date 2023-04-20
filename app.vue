@@ -87,19 +87,4 @@ html.dark ::-webkit-scrollbar-track {
 html.dark ::-webkit-scrollbar-thumb {
 	background-color: #343a40;
 }
-
-.fade-enter-active,
-.fade-leave-active {
-	transition: all 0.2s ease-out;
-}
-
-.fade-enter-from {
-	opacity: 0;
-	transform: translateZ(1);
-}
-
-.fade-leave-to {
-	opacity: 0;
-	transform: translateZ(-1);
-}
 </style>

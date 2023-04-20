@@ -2,7 +2,7 @@
 	"eslint.packageManager": "yarn",
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"app.config.ts": "LICENSE,nuxt.config.ts,package.json,tsconfig.json,.npmrc"
+		"app.config.ts": "LICENSE,nuxt.config.ts,package.json,tsconfig.json,.npmrc,.gitignore,robots.config.ts"
 	},
 	"editor.quickSuggestions": {
 		"strings": "on"
