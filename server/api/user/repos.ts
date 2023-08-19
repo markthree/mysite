@@ -1,8 +1,8 @@
-import type { Projects } from "~/type"
-import { ghFetch, cacheOptions } from "~/utils/github";
+import type { Projects } from "~/type";
+import { cacheOptions, ghFetch } from "~/utils/github";
 
 export default cachedEventHandler(async () => {
-  const reposRes = []
+  const reposRes = [];
 
   let i = 1;
   while (true) {
@@ -19,7 +19,7 @@ export default cachedEventHandler(async () => {
   // @ts-ignore
   const repos = reposRes.flat().filter((repo) => !repo.fork).map((repo) => {
     // @ts-ignore
-    const { name: title, description: desc, html_url: href } = repo 
+    const { name: title, description: desc, html_url: href } = repo;
     return {
       title,
       desc,
@@ -27,5 +27,5 @@ export default cachedEventHandler(async () => {
     };
   });
 
-  return repos as Projects
-}, cacheOptions('api/user/repos'));
+  return repos as Projects;
+}, cacheOptions("api/user/repos"));
